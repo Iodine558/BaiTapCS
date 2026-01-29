@@ -2,6 +2,8 @@
 using System.Diagnostics.Metrics;
 
 // Bai 4: Tinh tong mang so nguyen
+//Ten: Pham Nguyen Minh Hai
+//MSSV: 2415053122211
 Console.WriteLine("Bai 4: Tinh tong mang so nguyen");
 Console.Write("Nhap so phan tu n: ");
 string? input = Console.ReadLine();
@@ -34,6 +36,8 @@ else
 }
 
 // Bai 5: Tim gia tri lon nhat trong mang
+//Ten: Pham Nguyen Minh Hai
+//MSSV: 2415053122211
 Console.WriteLine("Bai 5: Tim gia tri lon nhat trong mang");
 Console.Write("Nhap so phan tu n: ");
 input = Console.ReadLine();
@@ -68,6 +72,8 @@ else
 }
 
 // Bai 6: Dem so phan tu chan
+//Ten: Pham Nguyen Minh Hai
+//MSSV: 2415053122211
 Console.WriteLine("Bai 6: Dem so phan tu chan");
 Console.Write("Nhap so phan tu n: ");
 input = Console.ReadLine();
@@ -101,6 +107,8 @@ else
 }
 
 // Bai 7: Tach ho ten thanh mang
+//Ten: Pham Nguyen Minh Hai
+//MSSV: 2415053122211
 Console.WriteLine("Bai 7: Tach ho ten thanh mang");
 Console.Write("Nhap ho ten: ");
 string? fullname = Console.ReadLine();
@@ -121,6 +129,8 @@ else
 }
 
 // Bai 8: Tim tu dai nhat trong chuoi
+//Ten: Pham Nguyen Minh Hai
+//MSSV: 2415053122211
 Console.WriteLine("Bai 8: Tim tu dai nhat trong chuoi");
 Console.Write("Nhap mot cau: ");
 string? sentence = Console.ReadLine();
@@ -141,6 +151,8 @@ else
 }
 
 // Bai 9: Dem so chuoi khac null va khac rong trong mang
+//Ten: Pham Nguyen Minh Hai
+//MSSV: 2415053122211
 Console.WriteLine("Bai 9: Dem so chuoi khac null va khac rong trong mang");
 string[] arr9 = new string[] { "Hello", null, "", "World", " " };
 //Co 3 chuoi khac null va rong
@@ -149,10 +161,5 @@ for (int i = 0; i < arr9.Length; i++)
 {
     if (arr9[i] != null && arr9[i] != "")
         countNullorRong++;
-}
-Console.WriteLine("Chuoi duoc khoi tao la: ");
-for (int i = 0; i < arr9.Length; i++) 
-{ 
-    Console.Write($"'{arr9[i]},'");
 }
 Console.WriteLine($"So chuoi khac null va rong la: {countNullorRong}");
