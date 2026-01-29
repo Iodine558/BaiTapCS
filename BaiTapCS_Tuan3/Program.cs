@@ -2,9 +2,9 @@
 using System.Diagnostics.Metrics;
 
 // Bai 4: Tinh tong mang so nguyen
-//Ten: Pham Nguyen Minh Hai
-//MSSV: 2415053122211
 Console.WriteLine("Bai 4: Tinh tong mang so nguyen");
+Console.WriteLine("Ten: Pham Nguyen Minh Hai");
+Console.WriteLine("MSSV: 2415053122211");
 Console.Write("Nhap so phan tu n: ");
 string? input = Console.ReadLine();
 int n;
@@ -36,9 +36,9 @@ else
 }
 
 // Bai 5: Tim gia tri lon nhat trong mang
-//Ten: Pham Nguyen Minh Hai
-//MSSV: 2415053122211
 Console.WriteLine("Bai 5: Tim gia tri lon nhat trong mang");
+Console.WriteLine("Ten: Pham Nguyen Minh Hai");
+Console.WriteLine("MSSV: 2415053122211");
 Console.Write("Nhap so phan tu n: ");
 input = Console.ReadLine();
 if (!int.TryParse(input, out n) || n < 0)
@@ -75,6 +75,8 @@ else
 //Ten: Pham Nguyen Minh Hai
 //MSSV: 2415053122211
 Console.WriteLine("Bai 6: Dem so phan tu chan");
+Console.WriteLine("Ten: Pham Nguyen Minh Hai");
+Console.WriteLine("MSSV: 2415053122211");
 Console.Write("Nhap so phan tu n: ");
 input = Console.ReadLine();
 if (!int.TryParse(input, out n) || n < 0)
@@ -110,6 +112,8 @@ else
 //Ten: Pham Nguyen Minh Hai
 //MSSV: 2415053122211
 Console.WriteLine("Bai 7: Tach ho ten thanh mang");
+Console.WriteLine("Ten: Pham Nguyen Minh Hai");
+Console.WriteLine("MSSV: 2415053122211");
 Console.Write("Nhap ho ten: ");
 string? fullname = Console.ReadLine();
 if (fullname == null)
@@ -132,6 +136,8 @@ else
 //Ten: Pham Nguyen Minh Hai
 //MSSV: 2415053122211
 Console.WriteLine("Bai 8: Tim tu dai nhat trong chuoi");
+Console.WriteLine("Ten: Pham Nguyen Minh Hai");
+Console.WriteLine("MSSV: 2415053122211");
 Console.Write("Nhap mot cau: ");
 string? sentence = Console.ReadLine();
 if (sentence == null)
@@ -154,6 +160,8 @@ else
 //Ten: Pham Nguyen Minh Hai
 //MSSV: 2415053122211
 Console.WriteLine("Bai 9: Dem so chuoi khac null va khac rong trong mang");
+Console.WriteLine("Ten: Pham Nguyen Minh Hai");
+Console.WriteLine("MSSV: 2415053122211");
 string[] arr9 = new string[] { "Hello", null, "", "World", " " };
 //Co 3 chuoi khac null va rong
 int countNullorRong = 0;
